@@ -27,10 +27,10 @@
           ]
         }
       },
-      "isAvailableWorldwide": true,
+      "isAvailableWorldwide": false,
       "testingInstructions": "1.) Say Alexa, öffne UV Index\n2.) Alexa, frage UV Index nach den aktuellen UV Index\n\nPlease make sure you enabled location permissions for the skill",
       "category": "HEALTH_AND_FITNESS",
-      "distributionCountries": []
+      "distributionCountries": ["DE", "AT", "CH"]
     },
     "apis": {
       "custom": {
