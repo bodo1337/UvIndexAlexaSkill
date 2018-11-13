@@ -1,0 +1,41 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "uv index",
+            "intents": [{
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetUvIndexIntent",
+                    "slots": [],
+                    "samples": [
+                        "mein uv index",
+                        "wie lautet der uv index",
+                        "heute uv index",
+                        "was ist der uv index",
+                        "uv index",
+                        "uv index heute",
+                        "wie ist der uv index",
+                        "gib mir den uv index",
+                        "brauche ich sonnencreme",
+                        "wie ist der uv-index"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

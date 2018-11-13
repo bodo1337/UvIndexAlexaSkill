@@ -1,0 +1,44 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "name": "UV Index - Für den gesunden Sonnenspaß",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/cfc4/f086631be58243f2ac3e450f882ff24a/APP_ICON?versionId=hli_vBVrstHStdJAqLMtwTGRkrQEIdWd&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1542196454&Signature=ip4PBDlTDFI%2Bvbj0AcFHV%2BXUw78%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/5656/3adbc0d62ea24fa0a1ed5468e3dd56ef/APP_ICON_LARGE?versionId=KIOCzUA_6CFAIuYEZK3R7cvvvyHykLeX&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1542196454&Signature=Ak6K%2FUyzKj2SdGEOyLMqqWPiASk%3D",
+          "examplePhrases": [
+            "Alexa, öffne UV Index.",
+            "Alexa, starte UV Index und frage nach dem UV-Index.",
+            "Alexa, starte UV Index und frage ob ich Sonnencreme brauche."
+          ],
+          "keywords": [
+            "Uv-Index",
+            "uv",
+            "index",
+            "sonne",
+            "sonnenindex",
+            "sonnenbad",
+            "skala",
+            "sonnenschutz",
+            "schutz"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "category": "HEALTH_AND_FITNESS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": ".\\lambda\\eu-west-1_UvIndexLambda"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [{
+      "name": "alexa:devices:all:address:country_and_postal_code:read"
+    }]
+  }
+}
