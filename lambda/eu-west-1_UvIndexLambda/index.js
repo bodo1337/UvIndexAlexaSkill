@@ -228,7 +228,7 @@ const deData = {
   translation: {
     LAUNCH: 'Willkommen bei UV-Index. Hier bekommst du den aktuellen UV-Index.',
     DEFAULT_REPROMPT: 'Wie kann ich dir helfen?',
-    HELP_MESSAGE: 'Du kannst sagen, „Nenne mir einen Fakt über den Weltraum“, oder du kannst „Beenden“ sagen... Wie kann ich dir helfen?',
+    HELP_MESSAGE: 'Du kannst sagen, „Wie ist der UV Index“, oder du kannst „Beenden“ sagen... Wie kann ich dir helfen?',
     ERROR_MESSAGE: 'Das habe ich leider nicht verstanden. Bitte versuche es noch einmal.',
     STOP_MESSAGE: 'Bis zum nächsten mal!',
     MISSING_PERMISSIONS: 'Bitte aktiviere die Standort-Berechtigungen für mich in deinen Alexa-Einstellungen.',
