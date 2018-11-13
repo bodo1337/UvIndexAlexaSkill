@@ -4,8 +4,8 @@
       "locales": {
         "de-DE": {
           "name": "UV Index - Für den gesunden Sonnenspaß",
-          "summary": "",
-          "description": "",
+          "summary": "Mit UV Index bekommst du den aktuellen UV-Index sowie den Tageshöchstwert inklusive einer Handlungsempfehlung",
+          "description": "Mit UV Index bekommst du den aktuellen UV-Index sowie den Tageshöchstwert inklusive einer Handlungsempfehlung.\n\n Du kannst sagen:\n „Alexa, öffne Schätze öffne UV Index“\n „Alexa, frage UV Index nach den aktuellen UV Index“\n\n Der Skill benutzt deinen Alexa-Gerät Standort, um den lokalen UV Index zu ermitteln. Dazu musst du gegebenenfalls die Standort-Berechtigungen für diesen Skill in den Einstellungen aktivieren.",
           "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/cfc4/f086631be58243f2ac3e450f882ff24a/APP_ICON?versionId=hli_vBVrstHStdJAqLMtwTGRkrQEIdWd&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1542196454&Signature=ip4PBDlTDFI%2Bvbj0AcFHV%2BXUw78%3D",
           "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/5656/3adbc0d62ea24fa0a1ed5468e3dd56ef/APP_ICON_LARGE?versionId=KIOCzUA_6CFAIuYEZK3R7cvvvyHykLeX&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1542196454&Signature=Ak6K%2FUyzKj2SdGEOyLMqqWPiASk%3D",
           "examplePhrases": [
@@ -22,7 +22,8 @@
             "skala",
             "sonnenschutz",
             "schutz",
-            "sommer"
+            "sommer",
+            "sonnenbrand"
           ]
         }
       },
