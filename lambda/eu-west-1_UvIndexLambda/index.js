@@ -80,7 +80,7 @@ const GetUvIndexIntentHandler = {
                   }else {
                     recommendation = requestAttributes.t('RECOMMENDATION.5');
                   }
-                  MESSAGE = requestAttributes.t('UV_INDEX_ACTUAL') + data.uv.toFixed(1) + requestAttributes.t('UV_INDEX_HIGH') + data.uv_max.toFixed(1) + ". " + recommendation;
+                  MESSAGE = requestAttributes.t('UV_INDEX_ACTUAL') + String(data.uv.toFixed(1)).replace('.', ',') + ". " + requestAttributes.t('UV_INDEX_HIGH') + String(data.uv_max.toFixed(1)).replace('.', ',') + ". " + recommendation;
                 } catch (error) {
                   console.log("error3 " + error);
                   MESSAGE = requestAttributes.t('UV_INDEX_ERROR');
@@ -234,7 +234,7 @@ const deData = {
     MISSING_PERMISSIONS: 'Bitte aktiviere die Standort-Berechtigungen für mich in deinen Alexa-Einstellungen.',
     ADDRESS_NOT_AVAILABLE: 'Es sieht so aus als hättest du noch keinen Gerätestandort für dein Alexa-Gerät gesetzt.',
     UV_INDEX_ACTUAL: 'Der aktuelle UV-Index ist: ',
-    UV_INDEX_HIGH: ' Der Tageshöchstpunkt ist: ',
+    UV_INDEX_HIGH: 'Der Tageshöchstwert ist: ',
     GEOCODE_ERROR: 'Ich konnte deine Adresse nicht ermitteln.',
     UV_INDEX_ERROR: 'Ich konnte den UV-Index für deinen Standort nicht ermitteln.',
     ADDRESS_ERROR: 'Es gab einen Fehler beim ermitteln deines Standorts. Bitte überprüfe die Gerätestandort-Einstellungen für dein Alexa-Gerät.',

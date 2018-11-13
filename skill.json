@@ -4,12 +4,13 @@
       "locales": {
         "de-DE": {
           "name": "UV Index - Für den gesunden Sonnenspaß",
+          "summary": "",
+          "description": "",
           "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/cfc4/f086631be58243f2ac3e450f882ff24a/APP_ICON?versionId=hli_vBVrstHStdJAqLMtwTGRkrQEIdWd&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1542196454&Signature=ip4PBDlTDFI%2Bvbj0AcFHV%2BXUw78%3D",
           "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/5656/3adbc0d62ea24fa0a1ed5468e3dd56ef/APP_ICON_LARGE?versionId=KIOCzUA_6CFAIuYEZK3R7cvvvyHykLeX&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1542196454&Signature=Ak6K%2FUyzKj2SdGEOyLMqqWPiASk%3D",
           "examplePhrases": [
-            "Alexa, öffne UV Index.",
-            "Alexa, starte UV Index und frage nach dem UV-Index.",
-            "Alexa, starte UV Index und frage ob ich Sonnencreme brauche."
+            "Alexa, öffne UV Index",
+            "Alexa, frage UV Index nach den aktuellen UV Index"
           ],
           "keywords": [
             "Uv-Index",
@@ -20,7 +21,8 @@
             "sonnenbad",
             "skala",
             "sonnenschutz",
-            "schutz"
+            "schutz",
+            "sommer"
           ]
         }
       },
@@ -39,6 +41,18 @@
     "manifestVersion": "1.0",
     "permissions": [{
       "name": "alexa:devices:all:address:country_and_postal_code:read"
-    }]
+    }],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": true,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "locales": {
+        "de-DE": {
+          "privacyPolicyUrl": "https://bodo1337.github.io/uv-index-website/"
+        }
+      }
+    }
   }
 }
