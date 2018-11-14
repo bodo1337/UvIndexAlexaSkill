@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "uv index",
+            "invocationName": "u. v. index",
             "intents": [{
                     "name": "AMAZON.CancelIntent",
                     "samples": []
