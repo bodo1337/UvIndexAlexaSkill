@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: brunokrauss/jsdoc-action@3
       with: 
-        jsdoc-path: 'eu-west-1_UvIndexLambda'
+        jsdoc-path: 'lambda/eu-west-1_UvIndexLambda'
 
     # Runs a single command using the runners shell
     - name: Run a one-line script
